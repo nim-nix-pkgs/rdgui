@@ -3,11 +3,13 @@
     "cligen": {
       "inputs": {
         "flakeNimbleLib": [
+          "rdgui-master",
           "rapid",
           "nimterop",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "rdgui-master",
           "rapid",
           "nimterop",
           "nixpkgs"
@@ -55,10 +57,12 @@
     "glm": {
       "inputs": {
         "flakeNimbleLib": [
+          "rdgui-master",
           "rapid",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "rdgui-master",
           "rapid",
           "nixpkgs"
         ],
@@ -84,10 +88,12 @@
     "nimpng": {
       "inputs": {
         "flakeNimbleLib": [
+          "rdgui-master",
           "rapid",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "rdgui-master",
           "rapid",
           "nixpkgs"
         ],
@@ -114,10 +120,12 @@
       "inputs": {
         "cligen": "cligen",
         "flakeNimbleLib": [
+          "rdgui-master",
           "rapid",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "rdgui-master",
           "rapid",
           "nixpkgs"
         ],
@@ -156,12 +164,14 @@
     "rapid": {
       "inputs": {
         "flakeNimbleLib": [
+          "rdgui-master",
           "flakeNimbleLib"
         ],
         "glm": "glm",
         "nimpng": "nimpng",
         "nimterop": "nimterop",
         "nixpkgs": [
+          "rdgui-master",
           "nixpkgs"
         ],
         "src-rapid-2019_1": "src-rapid-2019_1"
@@ -183,14 +193,44 @@
         "type": "github"
       }
     },
+    "rdgui-master": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "rapid": "rapid",
+        "src-rdgui-master": "src-rdgui-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1648275907,
+        "narHash": "sha256-F1H1R8K8pGXZtl9C1GovXNVPQqZuDFuMURUR1ixCUdQ=",
+        "owner": "nim-nix-pkgs",
+        "repo": "rdgui",
+        "rev": "dca4c2bdb3d4f211af9aea00e9e7409d830f2b03",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "rdgui",
+        "type": "github"
+      }
+    },
     "regex": {
       "inputs": {
         "flakeNimbleLib": [
+          "rdgui-master",
           "rapid",
           "nimterop",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "rdgui-master",
           "rapid",
           "nimterop",
           "nixpkgs"
@@ -219,8 +259,7 @@
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
-        "rapid": "rapid",
-        "src-rdgui-master": "src-rdgui-master"
+        "rdgui-master": "rdgui-master"
       }
     },
     "src-cligen-v1_5_23": {
@@ -362,12 +401,14 @@
     "unicodedb": {
       "inputs": {
         "flakeNimbleLib": [
+          "rdgui-master",
           "rapid",
           "nimterop",
           "regex",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "rdgui-master",
           "rapid",
           "nimterop",
           "regex",

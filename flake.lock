@@ -208,11 +208,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1662256500,
-        "narHash": "sha256-aa3CJueuw6cX9/GsGxoUlWjbt2fOggnrKXnp3bn0UvY=",
+        "lastModified": 1667331680,
+        "narHash": "sha256-qCixBloahGeFQRBildDzfZrfte6aH7MRmkGJmrpkjgI=",
         "owner": "nim-nix-pkgs",
         "repo": "rdgui",
-        "rev": "77274a94e8b583e47d5567b75384466acc4e1119",
+        "rev": "f4f7dfc4e5f3f18461b1eba00366d88099ecf51b",
         "type": "github"
       },
       "original": {
